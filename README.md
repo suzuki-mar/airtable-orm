@@ -22,6 +22,10 @@ $model = $client->fetchModel($query);
 echo $model->name->value();
 ```
 
+AirTable::buildInitializedQuery();　で次のインターフェイスを返します
+https://github.com/suzuki-mar/airtable-orm/blob/main/app/Query.php
+
+
 ### 2. 条件付き検索
 特定条件で絞り込み、並べ替えと取得件数を設定します。
 
