@@ -1,4 +1,4 @@
-# AirTableORM
+# AirtableORM
  Airtable Integration Library
 
 このライブラリはAirtableと簡単にやり取りできるように設計されており、利用者は最小限の知識で操作が可能です。例えば、`AirTable::buildClient` でクライアントを生成し、`AirTable::buildInitializedQuery` で簡単にクエリを構築できます。
